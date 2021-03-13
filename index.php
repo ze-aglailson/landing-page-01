@@ -1,10 +1,17 @@
+<?php
+    require_once("config.php");
+    require_once("script.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem vindo</title>
-    <script src="js/main.js"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -29,21 +36,25 @@
     <main class="principal-grid">
 
         <section class="content content-titles">
-            <h1 class="title">Aprenda como se torna um social media</h1>
+            <h1 class="title">Aprenda como se tornar um social media</h1>
             <p class="subtitle">
-                Lorem ipsum dolor sit amet, 
-                consectetur adipisicing elit. 
-                Natus, inventore.
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Illum vel, neque repellat 
+                enim animi ab. Laborum ea enim assumenda eius.
             </p>
             <div class="content-btn-acao">
                 <button class="btn-acao" id="btn-acao">
                     Obter E-book agora
                 </button>
-                <form class="form-captura" id="form-captura">
+                <div class="form-captura" id="form-captura">
                     <input type="text" name="ipt-nome" id="ipt-nome" placeholder="Qual o seu nome?">
                     <input type="email" name="ipt-email" id="ipt-email" placeholder="E o seu Email?">
-                    <button class="btn-enviar" type="submit">Pronto</button>
-                </form>
+                    <button id="btn-enviar"  class="btn-enviar" type="submit">Pronto</button>   
+                </div>
+                <div id="menssagem" style=" color: green;padding: 7px;font-size: 12px;">
+                
+
+                </div>
             </div>
         </section>
 

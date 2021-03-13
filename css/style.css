@@ -126,6 +126,11 @@ a{text-decoration: none;}
     cursor: pointer;
 }
 
+#menssagem{
+    background-color: green;
+    padding: 10px;
+    font-size: 12px;
+}
 
 .content-ilustracao{
     grid-column:inicio-cont-ilustracao/fim-cont-ilustracao ;
